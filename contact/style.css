@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 19rem;
+}
+
+header div {
+  height: 3px;
+  width: 9%;
+  background: cornflowerblue;
+  margin-top: 1.5rem;
+}
+
+#Contact {
+  min-height: 100vh;
+  background-color: dimgrey;
+}
+
+#contact_Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+
+#contact_Form input,
+#contact_Form textarea {
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid white;
+  background: dimgrey;
+  color: white;
+  margin: 1rem 0rem;
+  resize: none;
+}
+
+#contact_Form textarea {
+  margin-bottom: 2rem;
+}
+
+#contact_Form input:focus,
+#contact_Form textarea:focus {
+  outline: none;
+}
+
+#contact_Form button {
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: large;
+  background-color: white;
+  border: none;
+}

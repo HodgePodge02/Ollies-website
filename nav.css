@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  font-size: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
