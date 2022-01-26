@@ -13,21 +13,40 @@ body {
   background-color: dimgrey;
 }
 
-#project_heading {
-  padding: 20px;
+#ProjectsSidebar {
   display: flex;
-  /*width: 30%;*/
-  height: 30vh;
-  margin-top: 10%;
-  width: 17%;
-  height: 13vh;
-  border-bottom: 4px solid white;
+  flex-direction: column;
+  width: 15%;
+  height: 100%;
 }
 
-#project_Heading_ul {
+#project_heading {
+  text-align: center;
+}
+
+#ListWrapper {
+  padding-top: 2rem;
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#ProjectsList {
   display: flex;
-  justify-content: left;
-  margin: 30px;
-  padding: 10px;
-  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#ProjectsList li {
+  font-size: 1rem;
+  list-style: none;
+  margin: 0.85rem 0;
+}
+
+.selected {
+  border-bottom: 2px solid white;
 }

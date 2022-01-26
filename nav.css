@@ -4,8 +4,8 @@ nav {
   align-items: center;
 }
 
-ul {
-  font-size: 30px;
+nav ul {
+  font-size: 2rem;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ ul {
   padding: 20px;
 }
 
-a {
+nav a {
   color: white;
   text-decoration: none;
 }
