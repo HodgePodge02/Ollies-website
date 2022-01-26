@@ -12,3 +12,22 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: dimgrey;
 }
+
+#project_heading {
+  padding: 20px;
+  display: flex;
+  /*width: 30%;*/
+  height: 30vh;
+  margin-top: 10%;
+  width: 17%;
+  height: 13vh;
+  border-bottom: 4px solid white;
+}
+
+#project_Heading_ul {
+  display: flex;
+  justify-content: left;
+  margin: 30px;
+  padding: 10px;
+  width: 40%;
+}
