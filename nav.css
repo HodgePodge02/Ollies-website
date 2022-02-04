@@ -9,11 +9,65 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  width: 45%;
-  padding: 20px;
+  width: 65%;
+  padding: 1.2rem;
+  margin: auto;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1270px) {
+  nav ul {
+    font-size: 1.8rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  nav ul {
+    word-spacing: 0.5rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  nav ul {
+    word-spacing: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 916px) {
+  nav ul {
+    font-size: 1.4rem;
+    word-spacing: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  nav ul {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  nav ul {
+    font-size: 1.3rem;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  nav ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  nav ul {
+    font-size: 1.1rem;
+  }
 }
