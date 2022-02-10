@@ -2,15 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: none;
 }
-
-/* #title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  height: 51vh;
-} */
 
 body {
   height: 100vh;
@@ -37,35 +30,6 @@ body {
   align-items: flex-start;
   position: relative;
   overflow: hidden;
-}
-
-#title h1,
-#title h2 {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-}
-
-#title h1:before {
-  content: "";
-  position: absolute;
-  left: 120%;
-  width: 120%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
-
-  animation: fade-in 0.5s linear forwards;
-}
-
-#title h3:before {
-  content: "";
-  position: absolute;
-  left: 100%;
-  width: 50%;
-  height: 2.5rem;
-  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
-
-  animation: fade-in 2s linear forwards;
 }
 
 @keyframes fade-in {

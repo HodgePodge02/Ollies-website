@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+.inner-cursor {
+  position: fixed;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: width 0.5s, height 0.5s;
+}
+
+.inner-cursor.grow {
+  height: 25px;
+  width: 25px;
+  transition: width 0.5s, height 0.5s;
+  mix-blend-mode: difference;
+}
+
+.outer-cursor {
+  position: fixed;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: 0.05s;
+}

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 html {
@@ -62,8 +63,9 @@ header div {
   padding: 0.5rem;
   border-radius: 10px;
   font-size: large;
-  background-color: white;
+  background-color: cornflowerblue;
   border: none;
+  color: white;
 }
 
 @media screen and (max-width: 408px) {
