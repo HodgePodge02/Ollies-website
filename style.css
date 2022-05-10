@@ -75,6 +75,8 @@ body {
   padding: 1rem;
 }
 
+/*--- Mobile styles ---*/
+
 @media screen and (max-width: 1270px) {
   #title {
     font-size: 1.5rem;
@@ -137,10 +139,11 @@ body {
     width: 85%;
   }
 }
-
-#title h1:before,
-#title h3:before {
-  animation: none;
+@media screen and (max-width: 415px) {
+  #title h1:before,
+  #title h3:before {
+    animation: none;
+  }
 }
 
 @media screen and (max-width: 413px) {
