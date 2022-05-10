@@ -66,7 +66,7 @@ body {
     left: 0%;
   }
   to {
-    left: 120%;
+    left: 100%;
   }
 }
 
@@ -101,6 +101,12 @@ body {
   }
 }
 
+@media screen and (max-width: 790px) {
+  #homepage_h4 {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 646px) {
   #title {
     width: 75%;
@@ -130,6 +136,11 @@ body {
   #bigsquare {
     width: 85%;
   }
+}
+
+#title h1:before,
+#title h3:before {
+  animation: none;
 }
 
 @media screen and (max-width: 413px) {
