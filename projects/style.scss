@@ -5,15 +5,62 @@
 }
 html {
   background: #696969;
+  h1 {
+    color: #ffffff;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+  font-family: "Poppins", sans-serif;
 }
-#ProjectPage {
+nav {
+  margin-bottom: 3rem;
+}
+#ProjectFolder {
   background: #696969;
   min-height: 100vh;
+  button {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    margin-top: 1.6rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
 }
 
 #ProjectFolder {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    border-radius: 20px;
+  }
+  img:hover {
+    box-shadow: 0px 6px 8px rgba(255, 255, 255, 0.3);
+  }
+}
+.ProjectWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+.ColumnContent {
+  flex: 14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+.SB {
+  flex: 1;
+}
+
+#ProjectTwo {
+  flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
