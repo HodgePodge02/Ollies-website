@@ -19,6 +19,10 @@ nav {
 }
 
 #ProjectFolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: #696969;
   min-height: 100vh;
 }
@@ -29,13 +33,6 @@ nav {
   background-color: black;
   color: white;
   padding: 1rem;
-}
-
-#ProjectFolder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 #ProjectFolder img {
   border-radius: 20px;
@@ -61,12 +58,8 @@ nav {
 }
 
 .SB {
-  flex: 1;
-}
-
-#ProjectTwo {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: 3;
+  height: 50vh;
+  padding-right: 3rem;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */
