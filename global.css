@@ -4,7 +4,7 @@
   box-sizing: border-box;
   cursor: none;
 }
-
+/* --Cursor styles--  */
 .inner-cursor {
   position: fixed;
   left: 10px;

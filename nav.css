@@ -19,6 +19,8 @@ nav a {
   text-decoration: none;
 }
 
+/* ---Media styles--- */
+
 @media screen and (max-width: 1270px) {
   nav ul {
     font-size: 1.8rem;

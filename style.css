@@ -39,6 +39,8 @@ body {
   display: inline-block;
 }
 
+/* ---Home page animation--- */
+
 #title h1:before {
   content: "";
   position: absolute;
@@ -61,6 +63,8 @@ body {
   animation: fade-in 2s linear forwards;
 }
 
+/* ---Home page fade in--- */
+
 @keyframes fade-in {
   from {
     left: 0%;
@@ -75,7 +79,7 @@ body {
   padding: 1rem;
 }
 
-/*--- Mobile styles ---*/
+/*--- Media styles ---*/
 
 @media screen and (max-width: 1270px) {
   #title {
