@@ -18,44 +18,77 @@
 </head>
 
 <body>
-    <div id="Contact">
-        <nav>
+    <main>
+        <div id="Contact">
+            <nav>
 
-            <ul>
-                <li><a href="../">HOME</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="/projects/">PROJECTS</a></li>
-            </ul>
+                <ul>
+                    <li><a href="../">HOME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="/projects/">PROJECTS</a></li>
+                </ul>
 
-        </nav>
-        <header>
+            </nav>
+            <header>
 
-            <h1>CONTACT ME</h1>
-            <div></div>
+                <h1>CONTACT ME</h1>
 
-        </header>
+            </header>
 
-        <form id="contact_Form" action="https://formspree.io/f/mwkypjvv" method="POST">
+            <!--- Form spree copy/paste --->
 
-
-            <input type="name" placeholder="your name">
-
+            <form id="contact_Form" action="https://formspree.io/f/mwkypjvv" method="POST">
 
 
-            <input type="email" name="_replyto" placeholder="email">
+                <input type="name" placeholder="your name">
 
 
 
-            <textarea rows="6" name="message" placeholder="message"></textarea>
+                <input type="email" name="_replyto" placeholder="email">
 
-            <button type="submit">Send</button>
-        </form>
-    </div>
 
-    <div class="inner-cursor"></div>
-    <div class="outer-cursor"></div>
 
-    <script src="app.js"></script>
+                <textarea rows="6" name="message" placeholder="message"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <div class="inner-cursor"></div>
+        <div class="outer-cursor"></div>
+
+        <script src="/cursor.js"></script>
+
+    </main>
 </body>
 
 </html>
+
+
+<!-- let innerCursor = document.querySelector(".inner-cursor");
+let outerCursor = document.querySelector(".outer-cursor");
+
+document.addEventListener("mousemove", moveCursor);
+
+function moveCursor(e) {
+let x = e.clientX;
+let y = e.clientY;
+console.log(x, y);
+innerCursor.style.left = `${x}px`;
+innerCursor.style.top = `${y}px`;
+outerCursor.style.left = `${x}px`;
+outerCursor.style.top = `${y}px`;
+}
+
+let links = Array.from(document.querySelectorAll("a"));
+
+console.log(links);
+
+links.forEach((link) => {
+link.addEventListener("mouseover", () => {
+innerCursor.classList.add("grow");
+});
+link.addEventListener("mouseleave", () => {
+innerCursor.classList.remove("grow");
+});
+}); -->
