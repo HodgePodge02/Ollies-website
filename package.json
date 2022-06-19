@@ -1,0 +1,28 @@
+{
+    "name": "personal-website",
+    "version": "1.0.0",
+    "description": "To Do List: Find more javascript project ideas to add to your project folder!",
+    "main": "cursor.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HodgePodge02/Ollies-website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HodgePodge02/Ollies-website/issues"
+    },
+    "homepage": "https://github.com/HodgePodge02/Ollies-website#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.20.2",
+        "@wdio/local-runner": "^7.20.2",
+        "@wdio/mocha-framework": "^7.20.0",
+        "@wdio/spec-reporter": "^7.20.0",
+        "chromedriver": "^102.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
