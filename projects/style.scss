@@ -59,3 +59,20 @@ nav {
   padding-right: 3rem;
   font-size: 1.3rem;
 }
+
+// mobile styles //
+
+@media screen and (max-width: 1245px) {
+  .SB {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .SB {
+    margin-left: 2rem;
+  }
+  #QG_img {
+    width: 90%;
+  }
+}
